@@ -8,3 +8,4 @@
 * Using the ExpressJS framework create an api route called cards-data.
 * Assign the route to the cardsData function. Call the route in the browser to display the result.
 * Modify the cardsData function to read a query parameter from the route to limit the number of objects returned by the function.
+* Write unit tests using any framework to cover the cardsData function.
