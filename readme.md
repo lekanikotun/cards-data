@@ -5,9 +5,9 @@
 * Create a simple node server in a file called server.js. 
 * In the index.js, file create a function called readJSONData that asynchronously reads the cardsData.json file using the fs module.
 * In the index.js file, create a function called cardsFilter that:
-** reads the response of the readJSONData function
-** returns the same number of elements in the array 
-** each element in the array only returns fields in the requiredFields array.
+..1. reads the response of the readJSONData function
+..2. returns the same number of elements in the array 
+..3. each element in the array only returns fields in the requiredFields array.
 * Export the cardsFilter function
 * Import the cardsFilter function in the server.js file
 * Create a route called cardsFilter that returns the result of the cardsFilter method.
