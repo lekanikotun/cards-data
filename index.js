@@ -6,12 +6,6 @@ const requiredFields = [
 	'productName',
 	'cardHeadline',
 	'cardTitle',
-	'filters',
-	'similarCards',
 	'active',
-	'decommissioned',
-	'rates',
-	'fee',
-	'benefits',
-	'welcomeOffer'
+	'decommissioned'
 ];
