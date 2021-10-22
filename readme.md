@@ -2,14 +2,10 @@
 
 ## Data Filter Exercise
 * Clone repo
-* Create a simple node server in a file called server.js. 
-* In the index.js, file create a function called readJSONData that asynchronously reads the cardsData.json file using the fs module.
-* In the index.js file, create a function called cardsFilter that:
-1. reads the response of the readJSONData function
-2. returns the same number of elements in the array 
-3. each element in the array only returns fields in the requiredFields array.
-* Export the cardsFilter function
-* Import the cardsFilter function in the server.js file
-* Create a route called cardsFilter that returns the result of the cardsFilter method.
+* In index.js, using the fs module, create a function called readCardsData that asynchronously reads the cardsdata.json file.
+* Next, create a function called cardsFilter that:
+1. calls the readCardsData function
+2. reduces the number of attributes per item to only what's in the requiredFields array
+* Create a node server and expose a route that returns the result of the cardsFilter method
 * BONUS:  Modify the route to read a query parameter from the route to limit the number of objects returned by the function.
-* Write unit tests using any framework to cover the cardsData function.
+* Write unit tests using a framework of your choice to cover the cardsData function.
