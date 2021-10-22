@@ -1,7 +1,7 @@
 # Interview Questions
 
 ## Data Filter Exercise
-* Clone repo
+* Clone this repo
 * In index.js, using the fs module, create a function called `readCardsData` that asynchronously reads the `cardsdata.json` file.
 * Next, create a function called `cardsFilter` that:
   1. calls the `readCardsData` function
